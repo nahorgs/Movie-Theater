@@ -13,6 +13,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Main{
+    
     // class that holds all user details to be stored in the hashmap 
     private static class Account{
         private String username;
@@ -307,6 +308,7 @@ public class Main{
     }
 
     private static class Ticket{
+        // class that keeps track of ticket data for every seat reserved and confirmed in an order
     
         private int row;
         private char seat;
