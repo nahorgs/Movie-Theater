@@ -378,6 +378,9 @@ public class Main{
             return (String) "" + this.row + this.seat;
         }
     }
+    
+    
+    // start of main
     public static void main(String[] args) throws FileNotFoundException {
         Scanner in = new Scanner(System.in);
 
